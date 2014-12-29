@@ -1,14 +1,469 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trl>
-<text>
-<en>Active</en>
-<ru>Активен</ru>
-<id>5000</id>
-</text>
-<text>
-<en>Customers</en>
-<ru>Покупатели</ru>
-<id>5001</id>
-</text>
+	<text>
+		<en>Dictionaries</en>
+		<ru>Справочники</ru>
+		<id>1</id>
+	</text>
+	<text>
+		<en>Dictionary</en>
+		<ru>Справочник</ru>
+		<id>2</id>
+	</text>
+	<text>
+		<en>List num.</en>
+		<ru>№ в списках</ru>
+		<id>3</id>
+	</text>
+	<text>
+		<en>Checks types</en>
+		<ru>Типы проверок</ru>
+		<id>4</id>
+	</text>
+	<text>
+		<en>Times</en>
+		<ru>Кол-во раз</ru>
+		<id>5</id>
+	</text>
+	<text>
+		<en>In months</en>
+		<ru>В месяцев</ru>
+		<id>6</id>
+	</text>
+	<text>
+		<en>Employee states</en>
+		<ru>Состояния сотрудника</ru>
+		<id>7</id>
+	</text>
+	<text>
+		<en>Consider time</en>
+		<ru>Учитывать время</ru>
+		<id>8</id>
+	</text>
+	<text>
+        <en>Countries</en>
+        <ru>Страны</ru>
+        <id>9</id>
+    </text>
+	<text>
+        <en>English name</en>
+        <ru>По-английски</ru>
+        <id>10</id>
+    </text>
+	<text>
+        <en>Airports</en>
+        <ru>Аэропорты</ru>
+        <id>11</id>
+    </text>
+	<text>
+        <en>Landpoints</en>
+        <ru>Точки взлета-посадки</ru>
+        <id>12</id>
+    </text>
+	<text>
+        <en>Landpoint</en>
+        <ru>Точка взлета-посадки</ru>
+        <id>13</id>
+    </text>
+	<text>
+        <en>Owner</en>
+        <ru>Владелец</ru>
+        <id>14</id>
+    </text>
+	<text>
+        <en>Companies</en>
+        <ru>Компании</ru>
+        <id>15</id>
+    </text>
+	<text>
+        <en>Full name</en>
+        <ru>Полное наименование</ru>
+        <id>16</id>
+    </text>
+	<text>
+        <en>INN</en>
+        <ru>ИНН</ru>
+        <id>17</id>
+    </text>
+	<text>
+        <en>Aircraft types</en>
+        <ru>Типы ВС</ru>
+        <id>18</id>
+    </text>
+	<text>
+        <en>Aircraft type</en>
+        <ru>Тип ВС</ru>
+        <id>19</id>
+    </text>
+	<text>
+        <en>IKAO</en>
+        <ru>IKAO</ru>
+        <id>20</id>
+    </text>
+    <text>
+        <en>IATA</en>
+        <ru>IATA</ru>
+        <id>21</id>
+    </text>
+    <text>
+        <en>Class</en>
+        <ru>Класс</ru>
+        <id>22</id>
+    </text>
+	<text>
+        <en>Airplanes</en>
+        <ru>Бортовые номера</ru>
+        <id>23</id>
+    </text>
+    <text>
+        <en>Airplane</en>
+        <ru>Бортовой номер</ru>
+        <id>24</id>
+    </text>
+    <text>
+        <en>Char Title</en>
+        <ru>Буквенный номер</ru>
+        <id>25</id>
+    </text>
+    <text>
+        <en>Number Title</en>
+        <ru>Цифровой номер</ru>
+        <id>26</id>
+    </text>
+    <text>
+        <en>Bort Title</en>
+        <ru>Бортовой номер</ru>
+        <id>27</id>
+    </text>
+    <text>
+        <en>Weight</en>
+        <ru>Масса</ru>
+        <id>28</id>
+    </text>
+    <text>
+        <en>Center Point</en>
+        <ru>Центровка</ru>
+        <id>29</id>
+    </text>
+    <text>
+        <en>Seats Number</en>
+        <ru>Кресел</ru>
+        <id>30</id>
+    </text>
+    <text>
+        <en>Subcompany</en>
+        <ru>Подразделение</ru>
+        <id>31</id>
+    </text>
+	<text>
+        <en>Tasks</en>
+        <ru>Задачи</ru>
+        <id>32</id>
+    </text>
+	<text>
+        <en>Done</en>
+        <ru>Выполнено</ru>
+        <id>33</id>
+    </text>
+	<text>
+        <en>Library</en>
+        <ru>Библиотека</ru>
+        <id>34</id>
+    </text>
+	<text>
+        <en>Sections</en>
+        <ru>Разделы</ru>
+        <id>35</id>
+    </text>
+    <text>
+        <en>Employees</en>
+        <ru>Сотрудники</ru>
+        <id>36</id>
+    </text>
+	<text>
+        <en>Employee</en>
+        <ru>Сотрудник</ru>
+        <id>37</id>
+    </text>
+	<text>
+        <en>Flight crew</en>
+        <ru>Летный состав</ru>
+        <id>38</id>
+    </text>
+	<text>
+        <en>Middlename</en>
+        <ru>Отчество</ru>
+        <id>39</id>
+    </text>
+	<text>
+        <en>Allowed</en>
+        <ru>Допуск</ru>
+        <id>40</id>
+    </text>
+	<text>
+        <en>Firstname En</en>
+        <ru>Имя (англ.)</ru>
+        <id>41</id>
+    </text>
+    <text>
+        <en>Lastname En</en>
+        <ru>Фамилия (англ.)</ru>
+        <id>42</id>
+    </text>
+	<text>
+        <en>Reg address</en>
+        <ru>Регистрация</ru>
+        <id>43</id>
+    </text>
+	<text>
+        <en>None</en>
+        <ru>Отсутствует</ru>
+        <id>44</id>
+    </text>
+	<text>
+        <en>Passport (RU) num.</en>
+        <ru>Паспорт (RU) №</ru>
+        <id>45</id>
+    </text>
+	<text>
+        <en>Passport (EN) num.</en>
+        <ru>Паспорт (EN) №</ru>
+        <id>46</id>
+    </text>
+	<text>
+        <en>Issue date</en>
+        <ru>Дата выдачи</ru>
+        <id>47</id>
+    </text>
+	<text>
+        <en>Issued by</en>
+        <ru>Кем выдан</ru>
+        <id>48</id>
+    </text>
+	<text>
+        <en>Date of expiry</en>
+        <ru>Дата окончания</ru>
+        <id>49</id>
+    </text>
+	<text>
+        <en>Sex</en>
+        <ru>Пол</ru>
+        <id>50</id>
+    </text>
+	<text>
+        <en>Birthdate</en>
+        <ru>Дата рождения</ru>
+        <id>51</id>
+    </text>
+    <text>
+        <en>Birthplace</en>
+        <ru>Место рождения</ru>
+        <id>52</id>
+    </text>
+	<text>
+        <en>Citizenship</en>
+        <ru>Гражданство</ru>
+        <id>53</id>
+    </text>
+	<text>
+        <en>Active</en>
+        <ru>Активен</ru>
+        <id>54</id>
+    </text>
+	<text>
+        <en>Job place</en>
+        <ru>Место работы</ru>
+        <id>55</id>
+    </text>
+	<text>
+        <en>Speciality</en>
+        <ru>Специальность</ru>
+        <id>56</id>
+    </text>
+	<text>
+        <en>Subcompany</en>
+        <ru>Подразделение</ru>
+        <id>57</id>
+    </text>
+	<text>
+        <en>Order number</en>
+        <ru>Номер приказа</ru>
+        <id>58</id>
+    </text>
+	<text>
+        <en>Employee ID</en>
+        <ru>Табельный номер</ru>
+        <id>59</id>
+    </text>
+	<text>
+        <en>Total flight time</en>
+        <ru>Суммарный налет</ru>
+        <id>60</id>
+    </text>
+	<text>
+        <en>As of</en>
+        <ru>По состоянию на</ru>
+        <id>61</id>
+    </text>
+	<text>
+        <en>Spec position</en>
+        <ru>Должность</ru>
+        <id>62</id>
+    </text>
+	<text>
+        <en>Leader</en>
+        <ru>Руководитель</ru>
+        <id>63</id>
+    </text>
+	<text>
+        <en>Fails ticket</en>
+        <ru>Талон нарушений</ru>
+        <id>64</id>
+    </text>
+	<text>
+        <en>Spec certificate type</en>
+        <ru>Тип св-ва специалиста</ru>
+        <id>65</id>
+    </text>
+	<text>
+        <en>Personal data</en>
+        <ru>Личные данные</ru>
+        <id>66</id>
+    </text>
+	<text>
+        <en>Passport</en>
+        <ru>Паспорт</ru>
+        <id>67</id>
+    </text>
+	<text>
+        <en>Onboard positions</en>
+        <ru>Позиции на борту</ru>
+        <id>68</id>
+    </text>
+	 <text>
+        <en>Additional groups</en>
+        <ru>Дополнительные группы</ru>
+        <id>69</id>
+    </text>
+	<text>
+        <en>General info</en>
+        <ru>Общая информация</ru>
+        <id>70</id>
+    </text>
+	<text>
+        <en>Recurrent training</en>
+        <ru>Периодическая подготовка</ru>
+        <id>71</id>
+    </text>
+	<text>
+        <en>Operating time</en>
+        <ru>Наработка</ru>
+        <id>72</id>
+    </text>
+	<text>
+        <en>Flight checks</en>
+        <ru>Летные проверки</ru>
+        <id>73</id>
+    </text>
+	<text>
+        <en>Flight time</en>
+        <ru>Налет</ru>
+        <id>74</id>
+    </text>
+	<text>
+        <en>Approaches</en>
+        <ru>Заходы</ru>
+        <id>75</id>
+    </text>
+	<text>
+        <en>Check type</en>
+        <ru>Тип проверки</ru>
+        <id>76</id>
+    </text>
+	<text>
+        <en>Document number</en>
+        <ru>Номер документа</ru>
+        <id>77</id>
+    </text>
+	<text>
+        <en>Comment</en>
+        <ru>Комментарий</ru>
+        <id>78</id>
+    </text>
+	<text>
+        <en>Grade</en>
+        <ru>Оценка</ru>
+        <id>79</id>
+    </text>
+	<text>
+        <en>Login date</en>
+        <ru>Дата входа</ru>
+        <id>80</id>
+    </text>
+	<text>
+        <en>Weather minimums</en>
+        <ru>Метеоминимумы</ru>
+        <id>81</id>
+    </text>
+	<text>
+        <en>Weather minimum</en>
+        <ru>Метеоминимум</ru>
+        <id>82</id>
+    </text>
+	<text>
+        <en>Flights types</en>
+        <ru>Типы полетов</ru>
+        <id>83</id>
+    </text>
+	<text>
+        <en>Flights number</en>
+        <ru>Кол-во полетов</ru>
+        <id>84</id>
+    </text>
+	<text>
+        <en>Descents/lifts number</en>
+        <ru>Кол-во сп/подъемов</ru>
+        <id>85</id>
+    </text>
+	<text>
+        <en>Admission date</en>
+        <ru>Дата допуска</ru>
+        <id>86</id>
+    </text>
+	<text>
+        <en>Show in total</en>
+        <ru>В итогах</ru>
+        <id>87</id>
+    </text>
+	<text>
+        <en>Code WT</en>
+        <ru>Код РВ</ru>
+        <id>88</id>
+    </text>
+	<text>
+        <en>Approach type</en>
+        <ru>Тип захода</ru>
+        <id>89</id>
+    </text>
+	<text>
+        <en>Approaches count</en>
+        <ru>Количество заходов</ru>
+        <id>90</id>
+    </text>
+	<text>
+        <en>Airport</en>
+        <ru>Аэропорт</ru>
+        <id>91</id>
+    </text>
+	<text>
+        <en>Staff groups</en>
+        <ru>Дополнительный персонал</ru>
+        <id>92</id>
+    </text>
+	<text>
+        <en>Photo</en>
+        <ru>Фото</ru>
+        <id>93</id>
+    </text>
 </trl>
 

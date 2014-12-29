@@ -18,5 +18,13 @@ class Acl extends Kwf_Acl
         $this->allow('guest', 'members_index');
         $this->allow('guest', 'kwf_media_upload');
         $this->allow('guest', 'default_index');
+		
+		
+		 $this->addResource(new Kwf_Acl_Resource_MenuUrl('tasks_index', array('text'=>trlStatic('Задачи'), 'icon'=>'time.png'), '/tasks/tasks'));
+		//задачи - ресурсы
+		$this->addResource(new Zend_Acl_Resource('tasks_tasks'), 'tasks_index');
+		$this->addResource(new Zend_Acl_Resource('tasks_task'), 'tasks_index');
+		//задачи - доступ
+		$this->allow('guest', 'tasks_index');
     }
 }
