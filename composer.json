@@ -1,6 +1,7 @@
 {
     "require": {
-        "koala-framework/koala-framework": "3.8.x-dev"
+        "koala-framework/koala-framework": "3.8.x-dev",
+        "phpoffice/phpexcel": "1.8.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c18997fc9433f7204f25bfed9cf4fc9",
+    "hash": "ad268c2bb5057c0fb7899360ff0e8bc0",
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/composer-extra-assets.git",
-                "reference": "b7a97bffbe815f92b1976523abdae836feb45d3e"
+                "reference": "507245cd5a1f4eaa647c8b7dba5cec4d3e596b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/b7a97bffbe815f92b1976523abdae836feb45d3e",
-                "reference": "b7a97bffbe815f92b1976523abdae836feb45d3e",
+                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/507245cd5a1f4eaa647c8b7dba5cec4d3e596b08",
+                "reference": "507245cd5a1f4eaa647c8b7dba5cec4d3e596b08",
                 "shasum": ""
             },
             "require": {
@@ -41,20 +41,20 @@
             ],
             "description": "Composer Plugin for installing Assets using native npm/bower",
             "homepage": "https://github.com/koala-framework/composer-extra-assets",
-            "time": "2014-12-07 10:39:35"
+            "time": "2015-02-23 16:51:57"
         },
         {
             "name": "koala-framework/extjs2",
-            "version": "v2.3.0-p4",
+            "version": "v2.3.0-p5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/extjs2.git",
-                "reference": "d0f1352c13cdc09f70b00d63faebc0bf5cd9ca21"
+                "reference": "b91b8006199c28dccb2f67e6e01dc7714366e96c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/d0f1352c13cdc09f70b00d63faebc0bf5cd9ca21",
-                "reference": "d0f1352c13cdc09f70b00d63faebc0bf5cd9ca21",
+                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/b91b8006199c28dccb2f67e6e01dc7714366e96c",
+                "reference": "b91b8006199c28dccb2f67e6e01dc7714366e96c",
                 "shasum": ""
             },
             "type": "library",
@@ -64,7 +64,7 @@
             ],
             "description": "ExtJS JavaScript Library",
             "homepage": "http://www.sencha.com/products/extjs/",
-            "time": "2014-12-06 10:02:52"
+            "time": "2015-02-06 07:43:17"
         },
         {
             "name": "koala-framework/koala-framework",
@@ -72,24 +72,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "a821638b24c0a247ca84057fd09072c7d7378f9b"
+                "reference": "c8c85ba94cf3224941ca1f032dbbbc84756b1c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/a821638b24c0a247ca84057fd09072c7d7378f9b",
-                "reference": "a821638b24c0a247ca84057fd09072c7d7378f9b",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/c8c85ba94cf3224941ca1f032dbbbc84756b1c0d",
+                "reference": "c8c85ba94cf3224941ca1f032dbbbc84756b1c0d",
                 "shasum": ""
             },
             "require": {
-                "koala-framework/composer-extra-assets": "1.0.x-dev",
+                "koala-framework/composer-extra-assets": "1.0.1",
                 "koala-framework/extjs2": "2.3.0.*",
                 "koala-framework/kwf-modernizr": "3.8.x-dev",
                 "koala-framework/library-css3pie": "1.0.0",
                 "koala-framework/library-htmlawed": "1.1.14",
                 "koala-framework/library-silkicons": "1.3",
                 "koala-framework/library-swfupload": "2.2.0.1",
-                "koala-framework/sourcemaps": "0.1.x-dev",
+                "koala-framework/sourcemaps": "0.2.0",
                 "koala-framework/zendframework1": "1.12.6.*",
+                "symfony/process": "2.6.*",
                 "twig/twig": "1.16.1"
             },
             "require-dev": {
@@ -116,7 +117,7 @@
                 },
                 "require-npm": {
                     "uglify-js": "2.4.13",
-                    "node-sass": "1.2.3"
+                    "node-sass": "2.0.1"
                 },
                 "require-dev-bower": {
                     "qunit": "1.14.0",
@@ -135,7 +136,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-12-18 11:42:03"
+            "time": "2015-03-10 16:57:32"
         },
         {
             "name": "koala-framework/kwf-modernizr",
@@ -307,16 +308,16 @@
         },
         {
             "name": "koala-framework/sourcemaps",
-            "version": "dev-master",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/sourcemaps.git",
-                "reference": "d9862cd498b199d92531ec25506f37fbe9b97dc5"
+                "reference": "4fed293372f516b5cc86ca090f7930e1ea113a7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/d9862cd498b199d92531ec25506f37fbe9b97dc5",
-                "reference": "d9862cd498b199d92531ec25506f37fbe9b97dc5",
+                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/4fed293372f516b5cc86ca090f7930e1ea113a7b",
+                "reference": "4fed293372f516b5cc86ca090f7930e1ea113a7b",
                 "shasum": ""
             },
             "require-dev": {
@@ -339,20 +340,20 @@
             ],
             "description": "Sourcemaps Utities",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-11-25 16:06:57"
+            "time": "2015-02-23 16:45:16"
         },
         {
             "name": "koala-framework/zendframework1",
-            "version": "v1.12.6-p1",
+            "version": "v1.12.6-p2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/zendframework1.git",
-                "reference": "b22070a830708b476173f45a2b8b708098343f16"
+                "reference": "b3cfdccbb6ebcf962ee132050fab0038d143c556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/zendframework1/zipball/b22070a830708b476173f45a2b8b708098343f16",
-                "reference": "b22070a830708b476173f45a2b8b708098343f16",
+                "url": "https://api.github.com/repos/koala-framework/zendframework1/zipball/b3cfdccbb6ebcf962ee132050fab0038d143c556",
+                "reference": "b3cfdccbb6ebcf962ee132050fab0038d143c556",
                 "shasum": ""
             },
             "require": {
@@ -382,7 +383,111 @@
                 "ZF1",
                 "framework"
             ],
-            "time": "2014-12-15 13:49:08"
+            "time": "2015-03-04 15:09:37"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "e69a5e4d0ffa7fb6f171859e0a04346e580df30b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/e69a5e4d0ffa7fb6f171859e0a04346e580df30b",
+                "reference": "e69a5e4d0ffa7fb6f171859e0a04346e580df30b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2014-03-02 15:22:49"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.6.4",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "ecfc23e89d9967999fa5f60a1e9af7384396e9ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/ecfc23e89d9967999fa5f60a1e9af7384396e9ae",
+                "reference": "ecfc23e89d9967999fa5f60a1e9af7384396e9ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-25 04:39:26"
         },
         {
             "name": "twig/twig",
@@ -449,6 +554,7 @@
         "koala-framework/koala-framework": 20
     },
     "prefer-stable": true,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
