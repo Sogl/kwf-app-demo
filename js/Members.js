@@ -17,7 +17,7 @@ var Members = Ext2.extend(Ext2.Panel,
             title           : trl('Contacts')
         });
 
-        var grid = new Kwf.Auto.GridPanel({
+        this.membersGrid = new Kwf.Auto.GridPanel({
             controllerUrl   : '/members/members',
             region          : 'west',
             width           : 700,
@@ -36,12 +36,14 @@ var Members = Ext2.extend(Ext2.Panel,
                             text:'Выгрузка EXXON',
                             icon: '/assets/silkicons/page_excel.png',
                             cls: 'x2-btn-text-icon',
-                            handler : this.onXls
+                            handler : this.onXls,
+                            scope: this
                         },{
                             text:'Выгрузка SEIC',
                             icon: '/assets/silkicons/page_excel.png',
                             cls: 'x2-btn-text-icon',
-                            handler : this.onXls
+                            handler : this.onXls,
+                            scope: this
                         }
                         ]
                     },
@@ -54,7 +56,7 @@ var Members = Ext2.extend(Ext2.Panel,
         });
 
         this.layout = 'border';
-        this.items = [grid, {
+        this.items = [this.membersGrid, {
             layout: 'border',
             region: 'center',
             items: [form, contacts]
@@ -63,21 +65,22 @@ var Members = Ext2.extend(Ext2.Panel,
     },
 
     onXls : function() {
-        var params = Kwf.clone(this.getStore().baseParams);
-        if(this.getStore().sortInfo){
-            var pn = this.getStore().paramNames;
-            params[pn["sort"]] = this.getStore().sortInfo.field;
-            params[pn["dir"]] = this.getStore().sortInfo.direction;
+        var grid = this.membersGrid;
+        var params = Kwf.clone(grid.getStore().baseParams);
+        if(grid.getStore().sortInfo) {
+            var pn = grid.getStore().paramNames;
+            params[pn["sort"]] = grid.getStore().sortInfo.field;
+            params[pn["dir"]] = grid.getStore().sortInfo.direction;
         }
 
         Ext2.Ajax.request({
-            url : this.controllerUrl+'/json-xls',
+            url : grid.controllerUrl+'/json-xls',
             params  : params,
             timeout: 600000, // 10 minuten
             progress: true,
             progressTitle : trlKwf('Excel export'),
             success: function(response, opt, r) {
-                var downloadUrl = this.controllerUrl+'/download-export-file?downloadkey='+r.downloadkey;
+                var downloadUrl = grid.controllerUrl+'/download-export-file?downloadkey='+r.downloadkey;
                 for (var i in params) {
                     downloadUrl += '&' + i + '=' + params[i];
                 }
